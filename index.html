@@ -29,7 +29,6 @@
             font-size: 1.2em;
         }
         main {
-            display: flex;
             background-color: rgba(255, 255, 255, 0.9);
             margin: 20px auto;
             padding: 20px;
@@ -37,27 +36,6 @@
             border-radius: 8px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
             animation: slideIn 1.5s ease-in-out;
-        }
-        .image-slider {
-            flex: 1;
-            margin-right: 20px;
-            overflow: hidden;
-            border-radius: 8px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-        }
-        .image-slider img {
-            width: 100%;
-            height: auto;
-            animation: slideShow 10s infinite;
-        }
-        @keyframes slideShow {
-            0%, 20% { transform: translateX(0); }
-            25%, 45% { transform: translateX(-100%); }
-            50%, 70% { transform: translateX(-200%); }
-            75%, 100% { transform: translateX(-300%); }
-        }
-        .content {
-            flex: 2;
         }
         main h2 {
             color: #0073e6;
@@ -114,12 +92,6 @@
     </header>
 
     <main>
-        <div class="image-slider">
-            <img src="project1.jpg" alt="Project 1">
-            <img src="project2.jpg" alt="Project 2">
-            <img src="project3.jpg" alt="Project 3">
-            <img src="project4.jpg" alt="Project 4">
-        </div>
         <div class="content">
             <h2>Who We Are</h2>
             <p>
@@ -137,8 +109,9 @@
             <img src="logo1.jpg" alt="Forbes">
             <img src="image2.png" alt="Standard Chartered">
             <img src="logo3.jpg" alt="Microsoft">
-            <img src="logo4.png" alt="Salesforce">
+            <img src="logo4.png" alt="SalesForce">
         </div>
     </footer>
 </body>
 </html>
+
